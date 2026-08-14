@@ -7,7 +7,7 @@ export const phalanxq = defineSkill({
   id: SKILL.phalanxq,
   classId: "stonesplitStrength",
   name: "PhalanxQ",
-  tags: [WEAPON.moBlade, ATTUNE.phalanxbaneQ, PROP.shatteredRidgeBoost, ROLE.phalanxQ],
+  tags: [WEAPON.moBlade, ATTUNE.phalanxbaneQ, PROP.cleftpeakBoost, ROLE.phalanxQ],
   skillType: "weapon",
   weaponOrAttribute: "Modao",
   attributeAttack: "Stonesplit",

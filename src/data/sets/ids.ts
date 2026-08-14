@@ -6,5 +6,5 @@ export const SET_ID = {
   swayingHeights: "swayingHeights",
   mistwillow: "mistwillow",
   starsAlign: "starsAlign",
-  shatteredRidge: "shatteredRidge",
+  cleftpeak: "cleftpeak",
 } as const

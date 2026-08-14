@@ -9,7 +9,7 @@ export const snowpartingvcPrepull = defineSkill({
   name: "SnowpartingVC Prepull",
   tags: [
     PROP.consumesInnerPassion,
-    PROP.shatteredRidgeBoost,
+    PROP.cleftpeakBoost,
     WEAPON.hengBlade,
     ATTACK.heavy,
     ATTUNE.snowpartingVariedCombo,

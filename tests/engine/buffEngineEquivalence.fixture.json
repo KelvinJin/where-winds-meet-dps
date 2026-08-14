@@ -25019,7 +25019,7 @@
           "stonesplitStrength-soaring-1-hit",
           "stonesplitStrength-toad-cancel"
         ],
-        "digest": "1d8ebf9a4024778e61c6b32414c441cc5167c34130ac7bd20bdb824aa171c328"
+        "digest": "7cc35675ac5c25525f72aab8bece42fc2b3ed40c27f2e4c7bd6723545a22c735"
       },
       "debuffs": {
         "count": 4,
@@ -25696,14 +25696,14 @@
           "summary": "allDamageBoost +8%, physPen +12, stonesplitPen +12"
         },
         {
-          "id": "shatteredRidgeDeflect",
-          "name": "Shattered Ridge (Max Stacks)",
+          "id": "cleftpeakDeflect",
+          "name": "Cleftpeak (Max Stacks)",
           "classBuff": true,
           "requires": {
-            "set": "shatteredridge"
+            "set": "cleftpeak"
           },
           "affects": null,
-          "affectsProperty": "shatteredRidgeBoost",
+          "affectsProperty": "cleftpeakBoost",
           "affectsWeaponTypes": null,
           "excludes": null,
           "triggeredBy": [],

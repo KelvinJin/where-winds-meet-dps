@@ -82,13 +82,13 @@ describe("migrateCurrentGearWordLabel", () => {
 describe("V13 is registered and the chain reaches it", () => {
   it("is the latest step", () => {
     expect(PROFILE_MIGRATIONS).toContain(V13__gearWordCurrentLabels)
-    expect(LATEST_PROFILES_VERSION).toBe(13)
+    expect(V13__gearWordCurrentLabels.to).toBe(13)
   })
 
   it("a v12 blob walks to v13 and stores ids", () => {
     const result = runProfileMigrations(blobOf(withCurrentLabels(LEGACY.profile), 12))!
     expect(result.applied).toContain("V13__gearWordCurrentLabels")
-    expect(result.blob.v).toBe(13)
+    expect(result.blob.v).toBe(LATEST_PROFILES_VERSION)
     for (const word of storedWords((result.blob.profiles[0] as StoredProfile).inputs)) {
       expect(isGearWordId(word), word).toBe(true)
     }

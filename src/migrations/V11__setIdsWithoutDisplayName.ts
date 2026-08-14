@@ -14,7 +14,7 @@ export const LEGACY_SET_NAME_TO_ID: Record<string, string> = {
   "Swaying Heights": "swayingHeights",
   Mistwillow: "mistwillow",
   "Stars Align": "starsAlign",
-  "Shattered Ridge": "shatteredRidge",
+  "Shattered Ridge": "cleftpeak",
 }
 
 const VALID_SET_IDS = new Set(Object.values(LEGACY_SET_NAME_TO_ID))

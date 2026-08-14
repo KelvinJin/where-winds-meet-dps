@@ -9,7 +9,7 @@ export const anxisoldiermodown = defineSkill({
   name: "AnxiSoldierMoDown",
   tags: [
     WEAPON.moBlade,
-    PROP.shatteredRidgeBoost,
+    PROP.cleftpeakBoost,
     ATTUNE.phalanxbaneCharged,
     ROLE.anxiSoldier,
     ROLE.anxiSoldierMoDown,

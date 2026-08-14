@@ -7,7 +7,7 @@ export const snowpartingqStab = defineSkill({
   id: SKILL.snowpartingqStab,
   classId: "stonesplitStrength",
   name: "SnowpartingQ-Stab",
-  tags: [WEAPON.hengBlade, ATTUNE.snowpartingQ, PROP.shatteredRidgeBoost, ROLE.snowpartingQStab],
+  tags: [WEAPON.hengBlade, ATTUNE.snowpartingQ, PROP.cleftpeakBoost, ROLE.snowpartingQStab],
   skillType: "weapon",
   weaponOrAttribute: "Hengdao",
   attributeAttack: "Stonesplit",

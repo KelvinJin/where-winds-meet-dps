@@ -2,18 +2,18 @@ import { defineClassBuff } from "../../../../definitions/skills/buffDef"
 import { BUFF } from "../../buffs/ids"
 import { PROP } from "../../ids"
 import { propKeyOf } from "../../../../engine/buffs/tags"
-import { shatteredRidge } from "../../../sets/shatteredRidge"
+import { cleftpeak } from "../../../sets/cleftpeak"
 import { stat } from "../../../../engine/effects/effect"
 
 const FULL_STACKS = 5
 
-export const shatteredRidgeDeflect = defineClassBuff({
-  id: BUFF.shatteredRidgeDeflect,
-  name: "Shattered Ridge (Max Stacks)",
-  requires: { set: shatteredRidge.siteKey },
+export const cleftpeakDeflect = defineClassBuff({
+  id: BUFF.cleftpeakDeflect,
+  name: "Cleftpeak (Max Stacks)",
+  requires: { set: cleftpeak.siteKey },
   triggeredBy: [],
   stackOnDamage: true,
-  affectsProperty: propKeyOf(PROP.shatteredRidgeBoost),
+  affectsProperty: propKeyOf(PROP.cleftpeakBoost),
   duration: 5,
   maxStacks: FULL_STACKS,
   summary: "allDamageBoost +8% at max stacks",

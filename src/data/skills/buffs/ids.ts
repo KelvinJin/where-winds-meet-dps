@@ -15,7 +15,7 @@ export const BUFF = {
   innerPassion: "innerPassion",
   ironGuards: "ironGuards",
   mountainSplitter: "mountainSplitter",
-  shatteredRidgeDeflect: "shatteredRidgeDeflect",
+  cleftpeakDeflect: "cleftpeakDeflect",
   stonesplitStrengthSkillCritDamage: "stonesplitStrengthSkillCritDamage",
   throatPierced: "throatPierced",
   dragonHeadLowHp: "dragonHeadLowHp",

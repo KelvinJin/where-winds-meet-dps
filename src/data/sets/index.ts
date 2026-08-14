@@ -6,7 +6,7 @@ import { swiftGale } from "./swiftGale"
 import { swayingHeights } from "./swayingHeights"
 import { mistwillow } from "./mistwillow"
 import { starsAlign } from "./starsAlign"
-import { shatteredRidge } from "./shatteredRidge"
+import { cleftpeak } from "./cleftpeak"
 
 export const SET_DEFS: readonly SetDef[] = [
   hawking,
@@ -16,5 +16,5 @@ export const SET_DEFS: readonly SetDef[] = [
   swayingHeights,
   mistwillow,
   starsAlign,
-  shatteredRidge,
+  cleftpeak,
 ]

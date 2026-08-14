@@ -8,6 +8,7 @@ import { V10__renameFrostCladNight } from "./V10__renameFrostCladNight"
 import { V11__setIdsWithoutDisplayName } from "./V11__setIdsWithoutDisplayName"
 import { V12__gearWordIds } from "./V12__gearWordIds"
 import { V13__gearWordCurrentLabels } from "./V13__gearWordCurrentLabels"
+import { V14__renameCleftpeak } from "./V14__renameCleftpeak"
 
 export type { Migration, MigrationRunResult, RawProfilesBlob } from "./types"
 export {
@@ -29,6 +30,7 @@ export const PROFILE_MIGRATIONS: readonly Migration[] = [
   V11__setIdsWithoutDisplayName,
   V12__gearWordIds,
   V13__gearWordCurrentLabels,
+  V14__renameCleftpeak,
 ]
 
 const VERSION_BEFORE_THIS_FOLDER = 4

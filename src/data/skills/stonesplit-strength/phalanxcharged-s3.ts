@@ -9,7 +9,7 @@ export const phalanxchargedS3 = defineSkill({
   name: "PhalanxCharged-S3",
   tags: [
     PROP.isCharged,
-    PROP.shatteredRidgeBoost,
+    PROP.cleftpeakBoost,
     WEAPON.moBlade,
     ATTACK.charge,
     ATTUNE.phalanxbaneCharged,

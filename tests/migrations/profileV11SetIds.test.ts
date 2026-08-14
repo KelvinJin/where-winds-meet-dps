@@ -67,7 +67,7 @@ describe("migrateSetId — the frozen name table", () => {
     expect(migrateSetId("Swaying Heights")).toBe("swayingHeights")
     expect(migrateSetId("Mistwillow")).toBe("mistwillow")
     expect(migrateSetId("Stars Align")).toBe("starsAlign")
-    expect(migrateSetId("Shattered Ridge")).toBe("shatteredRidge")
+    expect(migrateSetId("Shattered Ridge")).toBe("cleftpeak")
   })
 
   it("degrades an unrecognised or absent value to no set, rather than throwing", () => {
@@ -80,7 +80,7 @@ describe("migrateSetId — the frozen name table", () => {
 
   it("is idempotent — an already-migrated id passes through unchanged", () => {
     expect(migrateSetId("hawking")).toBe("hawking")
-    expect(migrateSetId("shatteredRidge")).toBe("shatteredRidge")
+    expect(migrateSetId("cleftpeak")).toBe("cleftpeak")
   })
 })
 
@@ -88,7 +88,7 @@ describe("V11 step — v10 → v11 in isolation", () => {
   it("rewrites the legacy display name to its id", () => {
     const migrated = V11__setIdsWithoutDisplayName.migrate(blobOf(clone(LEGACY.profile)))
     expect(migrated.v).toBe(V11__setIdsWithoutDisplayName.to)
-    expect(inputsOf(migrated).set).toBe("shatteredRidge")
+    expect(inputsOf(migrated).set).toBe("cleftpeak")
   })
 
   it("degrades an unrecognised set to null instead of leaving it dangling", () => {
@@ -136,7 +136,7 @@ describe("v10 profile with the legacy set name → loaded build", () => {
   it("arrives with the id, so the set's bonus still resolves", () => {
     writeProfilesBlob(clone(LEGACY.profile))
     const after = loadOne()
-    expect(after.inputs.set).toBe("shatteredRidge")
+    expect(after.inputs.set).toBe("cleftpeak")
 
     const result = pipelineDps(after.inputs)
     expect(result.dps).toBeGreaterThan(0)
@@ -147,7 +147,7 @@ describe("v10 profile with the legacy set name → loaded build", () => {
     loadProfiles()
     const persisted = JSON.parse(localStorage.getItem(PROFILES_KEY)!)
     expect(persisted.v).toBe(LATEST_PROFILES_VERSION)
-    expect(persisted.profiles[0].inputs.set).toBe("shatteredRidge")
+    expect(persisted.profiles[0].inputs.set).toBe("cleftpeak")
   })
 
   it("is idempotent — loading twice in a row yields an equal profile", () => {

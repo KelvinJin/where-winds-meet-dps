@@ -11,7 +11,7 @@ export const details: ChangelogEntryDetails = {
         },
         { text: "Stonesplit Strength class skill boosts.", authors: ["KelvinJin"] },
         {
-          text: "The Shattered Ridge armor set, with its set bonus and stack mechanic.",
+          text: "The Cleftpeak armor set, with its set bonus and stack mechanic.",
           authors: ["KelvinJin"],
         },
         { text: "Stonesplit retunement pools and attunements.", authors: ["KelvinJin"] },
@@ -60,7 +60,7 @@ export const details: ChangelogEntryDetails = {
           text: "Mo Blade Charge Boost applies to Mo Blade Anxi skills.",
           authors: ["KelvinJin"],
         },
-        { text: "Shattered Ridge attack triggers.", authors: ["KelvinJin"] },
+        { text: "Cleftpeak attack triggers.", authors: ["KelvinJin"] },
         {
           text: "The Stonesplit Strength class boost is applied reliably.",
           authors: ["KelvinJin"],

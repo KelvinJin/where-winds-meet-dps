@@ -55,7 +55,7 @@ export const PROP_TO_PROPERTY: Record<(typeof PROP)[keyof typeof PROP], SkillPro
   [PROP.isCharged]: "isCharged",
   [PROP.isExecution]: "isExecution",
   [PROP.isMartialSkillQ]: "isMartialSkillQ",
-  [PROP.shatteredRidgeBoost]: "shatteredRidgeBoost",
+  [PROP.cleftpeakBoost]: "cleftpeakBoost",
 }
 
 export type EffectEvent =

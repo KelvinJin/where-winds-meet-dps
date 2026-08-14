@@ -99,7 +99,7 @@ const ARMOUR_SETS: readonly [label: string, id: string][] = [
   ["Jadeware", SET_ID.jadeware],
   ["Mistwillow", SET_ID.mistwillow],
   ["StarsAlign", SET_ID.starsAlign],
-  ["ShatteredRidge", SET_ID.shatteredRidge],
+  ["Cleftpeak", SET_ID.cleftpeak],
   ["Swallowcall", SET_ID.swallowcall],
   ["SwayingHeights", SET_ID.swayingHeights],
 ]

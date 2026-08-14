@@ -9,7 +9,7 @@ export const snowpartingvc = defineSkill({
   name: "SnowpartingVC",
   tags: [
     PROP.consumesInnerPassion,
-    PROP.shatteredRidgeBoost,
+    PROP.cleftpeakBoost,
     WEAPON.hengBlade,
     ATTACK.heavy,
     ATTUNE.snowpartingVariedCombo,
