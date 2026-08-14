@@ -8,7 +8,7 @@ export const snowpartingdual = defineSkill({
   name: "SnowpartingDual",
   tags: [WEAPON.hengBlade, ATTUNE.snowpartingVariedCombo],
   skillType: "weapon",
-  weaponOrAttribute: "Hengdao",
+  weaponOrAttribute: "Heng Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.snowpartingDual,
   castFrames: 35,

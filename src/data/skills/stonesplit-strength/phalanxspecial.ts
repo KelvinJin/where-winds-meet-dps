@@ -8,7 +8,7 @@ export const phalanxspecial = defineSkill({
   name: "PhalanxSpecial",
   tags: [WEAPON.moBlade],
   skillType: "weapon",
-  weaponOrAttribute: "Modao",
+  weaponOrAttribute: "Mo Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.phalanxSpecial,
   castFrames: 71,

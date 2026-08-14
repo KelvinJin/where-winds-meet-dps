@@ -180,7 +180,7 @@ export function computeSkillDamage(
   // `panel.ts`'s white→yellow conversion, so they are never divided here.
   // `art.extraAffinityRate` is the one raw (unconverted) rate source the
   // formula still receives, per PDF §11 divided by (1 + resistance) before
-  // the 40 % cap. Exception: Thundercry Blade's (Modao) charged-attack crit
+  // the 40 % cap. Exception: Thundercry Blade's (Mo Blade) charged-attack crit
   // rate (`art.extraCritRate`) is a flat, unresisted addition after the cap.
   const rateRes = ctx.rateResistance ?? 0
   const V = isTianGong

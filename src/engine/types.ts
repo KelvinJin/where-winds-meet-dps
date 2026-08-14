@@ -15,10 +15,10 @@ export const WEAPON_NAMES = [
   "Spear",
   "Fan",
   "Umbrella",
-  "Modao",
+  "Mo Blade",
   "Twin Blades",
   "Rope Dart",
-  "Hengdao",
+  "Heng Blade",
 ] as const
 
 export type WeaponName = (typeof WEAPON_NAMES)[number]
@@ -99,10 +99,10 @@ export interface Inputs {
   spearBoost: number
   fanBoost: number
   umbrellaBoost: number
-  modaoBoost: number
+  moBladeBoost: number
   dualKnivesBoost: number
   ropeDartBoost: number
-  hengDaoBoost: number
+  hengBladeBoost: number
 
   bossBoost: number
   singleMysticBoost: number

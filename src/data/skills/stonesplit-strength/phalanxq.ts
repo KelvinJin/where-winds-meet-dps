@@ -9,7 +9,7 @@ export const phalanxq = defineSkill({
   name: "PhalanxQ",
   tags: [WEAPON.moBlade, ATTUNE.phalanxbaneQ, PROP.cleftpeakBoost, ROLE.phalanxQ],
   skillType: "weapon",
-  weaponOrAttribute: "Modao",
+  weaponOrAttribute: "Mo Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.phalanxQ,
   castFrames: 49,

@@ -9,7 +9,7 @@ export const STONESPLIT_STRENGTH_GRADUATION_BUILD: GraduationBuild = {
     createGraduationGearPiece({
       idPrefix,
       slot: "leftWeapon",
-      words: ["minPhys", "agility", "maxStonesplit", "minPhys", "modaoBoost"],
+      words: ["minPhys", "agility", "maxStonesplit", "minPhys", "moBladeBoost"],
       attunement: "physPen",
     }),
     createGraduationGearPiece({

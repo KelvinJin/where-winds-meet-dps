@@ -176,10 +176,10 @@ export function deriveStats(inputs: Inputs): DerivedStats {
     Spear: inputs.spearBoost,
     Fan: inputs.fanBoost,
     Umbrella: inputs.umbrellaBoost,
-    Modao: inputs.modaoBoost,
+    "Mo Blade": inputs.moBladeBoost,
     "Twin Blades": inputs.dualKnivesBoost,
     "Rope Dart": inputs.ropeDartBoost,
-    Hengdao: inputs.hengDaoBoost,
+    "Heng Blade": inputs.hengBladeBoost,
     Knuckles: 0,
   }
 

@@ -23,7 +23,7 @@ function skill(name: string, tags: string[], castTag: string) {
   return makeSkill(CLASS, {
     name,
     castTag,
-    weaponOrAttribute: "Modao",
+    weaponOrAttribute: "Mo Blade",
     attributeAttack: "Stonesplit",
     tags,
   })

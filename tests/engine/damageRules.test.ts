@@ -59,8 +59,8 @@ const COMBUSTION_TICK = art_({
   specialTag: "sustain",
 })
 
-const MODAO_CHARGE = art_({
-  name: "Modao R-Charge 2",
+const MO_BLADE_CHARGE = art_({
+  name: "Mo Blade R-Charge 2",
   physMultiplier: 3.8964,
   physFixed: 900,
   attributeMultiplier: 5.8446,
@@ -71,7 +71,7 @@ const MODAO_CHARGE = art_({
   correction: 1,
   usesChargeBoost: 1,
   skillType: "weapon",
-  weaponOrAttribute: "Modao",
+  weaponOrAttribute: "Mo Blade",
   attributeAttack: "Stonesplit",
 })
 
@@ -116,12 +116,12 @@ const art = ROPE_DART_Q
 describe("physical attack range normalization", () => {
   it("uses min phys as the effective max when min phys exceeds max phys", () => {
     const inverted = computeSkillDamage(
-      MODAO_CHARGE,
+      MO_BLADE_CHARGE,
       { ...baseCtx, smallPhys: 2000, largePhys: 1000 },
       1,
     )
     const normalized = computeSkillDamage(
-      MODAO_CHARGE,
+      MO_BLADE_CHARGE,
       { ...baseCtx, smallPhys: 2000, largePhys: 2000 },
       1,
     )
@@ -138,12 +138,12 @@ describe("physical attack range normalization", () => {
 
   it("applies food before choosing the effective max phys", () => {
     const withFood = computeSkillDamage(
-      MODAO_CHARGE,
+      MO_BLADE_CHARGE,
       { ...baseCtx, smallPhys: 1000, largePhys: 900, food: true },
       1,
     )
     const foodFoldedIntoPanel = computeSkillDamage(
-      MODAO_CHARGE,
+      MO_BLADE_CHARGE,
       {
         ...baseCtx,
         smallPhys: 1000 + FOOD_MIN_PHYS_BONUS,
@@ -248,10 +248,10 @@ describe("rate resistance on a raw rate source (PDF §11)", () => {
     expect(withRes.W).toBeCloseTo(baseCtx.affinityPanel + 0.1 / 1.3, 9)
   })
 
-  it("Thundercry (Modao) charged bonus crit is FLAT: unresisted, added after the cap", () => {
-    const modao = MODAO_CHARGE
+  it("Thundercry (Mo Blade) charged bonus crit is FLAT: unresisted, added after the cap", () => {
+    const moBlade = MO_BLADE_CHARGE
     const cells = computeSkillDamage(
-      modao,
+      moBlade,
       { ...baseCtx, critPanel: 0.7, rateResistance: 0.3 },
       1,
     ).cells

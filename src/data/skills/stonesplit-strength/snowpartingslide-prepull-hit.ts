@@ -8,7 +8,7 @@ export const snowpartingslidePrepullHit = defineSkill({
   name: "SnowpartingSlide Prepull[Hit]",
   tags: [WEAPON.hengBlade, ATTUNE.snowpartingQ],
   skillType: "weapon",
-  weaponOrAttribute: "Hengdao",
+  weaponOrAttribute: "Heng Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.snowpartingSlidePrepullHit,
   castFrames: 6,

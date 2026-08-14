@@ -8,7 +8,7 @@ export const snowpartingchargedForgetfulness = defineSkill({
   name: "SnowpartingCharged[Forgetfulness]",
   tags: [PROP.isCharged, WEAPON.hengBlade, ATTACK.charge, ATTUNE.snowpartingCharged],
   skillType: "weapon",
-  weaponOrAttribute: "Hengdao",
+  weaponOrAttribute: "Heng Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.snowpartingChargedForgetfulness,
   castFrames: 57,

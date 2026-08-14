@@ -8,7 +8,7 @@ export const snowpartingcharged = defineSkill({
   name: "SnowpartingCharged",
   tags: [PROP.isCharged, WEAPON.hengBlade, ATTACK.charge, ATTUNE.snowpartingCharged],
   skillType: "weapon",
-  weaponOrAttribute: "Hengdao",
+  weaponOrAttribute: "Heng Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.snowpartingCharged,
   castFrames: 97,

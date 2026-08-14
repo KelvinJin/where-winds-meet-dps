@@ -19,7 +19,7 @@ function skill(name: string, tags: string[], castTag: string) {
   return makeSkill(CLASS, {
     name,
     castTag,
-    weaponOrAttribute: "Modao",
+    weaponOrAttribute: "Mo Blade",
     attributeAttack: "Stonesplit",
     tags,
   })
@@ -85,7 +85,7 @@ describe("Mountain Splitter — the tier 3 window", () => {
     expect(cooling.isBuffActive(BUFF.mountainSplitter, 18)).toBe(true)
   })
 
-  it("reaches Phalanx Charged and the two Modao Anxi attacks, and nothing else", () => {
+  it("reaches Phalanx Charged and the two Mo Blade Anxi attacks, and nothing else", () => {
     const live = engine(3)
     live.processSkillCast(CAST.snowpartingSpecial, 0, { castTime: 1 })
     live.processSkillCast(CAST.anxiSoldierMoJump, 1.5, {}, true)
