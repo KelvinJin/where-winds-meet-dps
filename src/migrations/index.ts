@@ -9,6 +9,7 @@ import { V11__setIdsWithoutDisplayName } from "./V11__setIdsWithoutDisplayName"
 import { V12__gearWordIds } from "./V12__gearWordIds"
 import { V13__gearWordCurrentLabels } from "./V13__gearWordCurrentLabels"
 import { V14__renameCleftpeak } from "./V14__renameCleftpeak"
+import { V15__renameBladeBoostIds } from "./V15__renameBladeBoostIds"
 
 export type { Migration, MigrationRunResult, RawProfilesBlob } from "./types"
 export {
@@ -19,6 +20,7 @@ export {
 export { migrateSetId } from "./V11__setIdsWithoutDisplayName"
 export { migrateGearWordId } from "./V12__gearWordIds"
 export { migrateCurrentGearWordLabel } from "./V13__gearWordCurrentLabels"
+export { migrateBladeBoostId, migrateBladeBoostInputs } from "./V15__renameBladeBoostIds"
 
 export const PROFILE_MIGRATIONS: readonly Migration[] = [
   V5__englishIdsWithoutSitePrefix,
@@ -31,6 +33,7 @@ export const PROFILE_MIGRATIONS: readonly Migration[] = [
   V12__gearWordIds,
   V13__gearWordCurrentLabels,
   V14__renameCleftpeak,
+  V15__renameBladeBoostIds,
 ]
 
 const VERSION_BEFORE_THIS_FOLDER = 4

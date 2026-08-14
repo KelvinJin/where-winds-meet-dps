@@ -32,7 +32,7 @@ export const stonesplitStrength = defineClass({
     "snowpartingCharged",
     "snowpartingVariedCombo",
   ],
-  weapons: ["Hengdao", "Modao"],
+  weapons: ["Heng Blade", "Mo Blade"],
   critBoostWeaponTypes: [],
   skills: withUniversalSkills(CLASS_ID, "Stonesplit", SKILLS),
   debuffs: DEBUFFS,

@@ -39,6 +39,8 @@ import {
   migrateGearWordId,
   migrateCurrentGearWordLabel,
   migrateSetId,
+  migrateBladeBoostId,
+  migrateBladeBoostInputs,
 } from "./migrations"
 
 export { migrateClassId, migrateEntityId } from "./migrations"
@@ -151,7 +153,7 @@ function repairGearWord(entry: unknown): unknown {
   if (!entry || typeof entry !== "object") return entry
   const stored = (entry as { word?: unknown }).word
   if (typeof stored !== "string") return entry
-  const renamed = migrateCurrentGearWordLabel(migrateGearWordId(stored))
+  const renamed = migrateBladeBoostId(migrateCurrentGearWordLabel(migrateGearWordId(stored)))
   return isGearWordId(renamed) ? { ...entry, word: renamed } : { ...entry, word: "", value: 0 }
 }
 
@@ -159,7 +161,7 @@ function repairGearWord(entry: unknown): unknown {
 function hydrateInputs(inputs: Inputs): Inputs {
   const { resistance: _legacyResistance, ...rest } = inputs as Inputs & { resistance?: number }
   void _legacyResistance
-  const next: Inputs = { ...(rest as Inputs) }
+  const next: Inputs = { ...(migrateBladeBoostInputs(rest) as Inputs) }
   // Also the entry point for the legacy `wwm.inputs` blob and imported
   // profiles, neither of which is version-walked. Must run before anything
   // that reads `classId` (arsenal / inner-way allowlist / talent defaults).

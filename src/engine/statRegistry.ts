@@ -40,10 +40,10 @@ export const WEAPON_BOOST_STAT_KEY: Readonly<Record<string, StatKey>> = {
   Spear: "spearBoost",
   Fan: "fanBoost",
   Umbrella: "umbrellaBoost",
-  Modao: "modaoBoost",
+  "Mo Blade": "moBladeBoost",
   "Twin Blades": "dualKnivesBoost",
   "Rope Dart": "ropeDartBoost",
-  Hengdao: "hengDaoBoost",
+  "Heng Blade": "hengBladeBoost",
 }
 
 export const MYSTIC_TYPE_BOOST_STAT_KEY: Readonly<Record<string, StatKey>> = {

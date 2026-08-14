@@ -17,7 +17,7 @@ export const phalanxchargedS3Innerpassion = defineSkill({
     ROLE.phalanxCharged,
   ],
   skillType: "weapon",
-  weaponOrAttribute: "Modao",
+  weaponOrAttribute: "Mo Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.phalanxChargedS3InnerPassion,
   castFrames: 138,

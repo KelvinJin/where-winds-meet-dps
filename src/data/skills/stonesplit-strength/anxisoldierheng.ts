@@ -8,7 +8,7 @@ export const anxisoldierheng = defineSkill({
   name: "AnxiSoldierHeng",
   tags: [WEAPON.hengBlade, PROP.cleftpeakBoost, ROLE.anxiSoldier],
   skillType: "weapon",
-  weaponOrAttribute: "Hengdao",
+  weaponOrAttribute: "Heng Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.anxiSoldierHeng,
   castFrames: 0,

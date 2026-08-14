@@ -8,7 +8,7 @@ export const anxisoldiermosweep = defineSkill({
   name: "AnxiSoldierMoSweep",
   tags: [WEAPON.moBlade, PROP.cleftpeakBoost, ROLE.anxiSoldier],
   skillType: "weapon",
-  weaponOrAttribute: "Modao",
+  weaponOrAttribute: "Mo Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.anxiSoldierMoSweep,
   castFrames: 0,

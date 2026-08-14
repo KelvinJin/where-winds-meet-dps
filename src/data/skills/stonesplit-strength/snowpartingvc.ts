@@ -16,7 +16,7 @@ export const snowpartingvc = defineSkill({
     ROLE.snowpartingVC,
   ],
   skillType: "weapon",
-  weaponOrAttribute: "Hengdao",
+  weaponOrAttribute: "Heng Blade",
   attributeAttack: "Stonesplit",
   castTag: CAST.snowpartingVC,
   castFrames: 52,

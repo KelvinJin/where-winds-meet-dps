@@ -3,6 +3,12 @@
 Always-on guardrails, plus a router to the detail. Keep this file **short**: if
 a section here grows past a few lines, it belongs in the topic file instead.
 
+## Legacy and reference folders are read-only
+
+Everything inside the top-level `reference/` tree or any folder named `legacy/`
+is read-only. Never add, edit, rename, move, delete, regenerate or apply bulk
+replacements to those files. Correct active data outside those folders instead.
+
 ## Docs are implementation rules — the gate on editing them
 
 > **Read this before opening any file in `docs/`. A docs edit that fails this
@@ -179,7 +185,7 @@ The app is **English-only**. There is **no Chinese in `src/` or `tests/`** — n
 in identifiers, object keys, comparison literals, enum values, data JSON,
 fixtures, or comments. Every domain term uses its official English form
 (attributes `Bellstrike`/`Stonesplit`/`Silkbind`/`Bamboocut`, weapons
-`Sword`/`Modao`/…, skill types
+`Sword`/`Mo Blade`/…, skill types
 `weapon`/`mindMethod`/`mystic`/`sustain`/`settlement`/`weaponMystic`, tiers
 `tier 6`, and every attunement label — see § "Class-specific attunement map").
 

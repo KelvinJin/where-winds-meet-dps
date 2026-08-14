@@ -43,10 +43,10 @@ const WEAPONS = [
   "Spear",
   "Fan",
   "Umbrella",
-  "Modao",
+  "Mo Blade",
   "Twin Blades",
   "Rope Dart",
-  "Hengdao",
+  "Heng Blade",
 ]
 const SKILL_TYPES = ["weapon", "mindMethod", "mystic", "sustain", "Heavenwork"]
 const MYSTIC_CATEGORIES = ["control", "burst", "area-debuff", "area-damage", "area"]
